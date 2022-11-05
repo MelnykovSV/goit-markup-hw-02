@@ -2,12 +2,13 @@
   --dark: #212121;
   --blue: #2196f3;
   --contacts-footer: rgba(255, 255, 255, 0.6);
+  --default-gray: #757575;
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #757575;
+  color: var(--default-gray);
 }
 a {
   text-decoration: none;
@@ -18,7 +19,7 @@ ul {
 
 /*------------------------- header ----------------------------*/
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26 * 100%);
@@ -245,8 +246,7 @@ ul {
 }
 .card {
 }
-.card__thumb {
-}
+
 .card__img {
 } */
 .card__title {
@@ -260,4 +260,5 @@ ul {
   font-size: 16px;
   line-height: calc(30 / 16 * 100%);
   letter-spacing: 0.03em;
+  color: var(--default-gray);
 }
